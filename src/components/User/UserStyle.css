@@ -1,0 +1,81 @@
+.userContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    background-color: #0D1117;
+    border: solid 1px #30363D;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.username {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #BCD1D9;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content:end;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #0D1117;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+.userImg {
+    left: 0;
+    top: 0;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.username{
+    padding-top: 10px;
+    color: #BCD1D9
+}
+.repoNum {
+    display: flex;
+    position: relative;
+    color: #BCD1D9;
+    align-items: center;
+    text-align: right;
+}
+
+.icons {
+    width: 1.3rem;
+    fill: #BCD1D9;
+    color: #BCD1D9;
+    filter: brightness(0) invert(1);
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+
+.repo-icon {
+    width: 1.3rem;
+    fill: #BCD1D9;
+    color: #BCD1D9;
+    filter: brightness(0) invert(1);
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+p{
+    color: #BCD1D9;
+}
+
+.accordHead2{
+    color: #BCD1D9;
+}

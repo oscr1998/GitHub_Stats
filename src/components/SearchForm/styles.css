@@ -1,0 +1,59 @@
+.header{
+    background-color: #161B22;
+    min-height: 70px;
+}
+.form{
+    display: flex;
+    margin-left: 100px;
+    padding-top: 25px;
+    color: white;
+    transition: all 5s ease-in-out;
+}
+
+.input{
+    transition: all 5s ease-in-out;
+}
+
+.formInput{
+    background-color: #0D1117;
+    color: #BCD1D9;
+    min-height: 20px;
+    border: 1px #44484C solid;
+    transition: width 5s ease-in-out;
+}
+
+.formInput:focus-within{
+    outline: none;
+    width: 40%;
+}
+
+.formButton{
+    background-color: #0D1117;
+    color: #BCD1D9;
+    border: 1px #44484C solid;
+}
+
+.userInfo{
+    background-color: #010409;
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+.userImgUpTop{
+    position: absolute;
+        right: 0;
+        top: 0;
+        padding: 10px;
+        margin-right: 30px;
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+}
+
+.navIcon{
+    color: white;
+}
