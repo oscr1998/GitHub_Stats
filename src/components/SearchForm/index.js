@@ -25,7 +25,7 @@ export default function SearchForm() {
 
 
     useEffect(() => {
-        getData("getfutureproof")
+        getData("oscr1998")
     }, [])
 
 
